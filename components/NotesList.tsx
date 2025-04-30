@@ -33,8 +33,8 @@ export default function NotesList() {
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {notes.map((note) => (
             <div key={note.id} className="bg-white p-4 rounded-lg shadow-md">
-              <h2 className="text-lg font-semibold text-primary">{note.title}</h2>
-              <p className="text-gray-600 line-clamp-3">{note.content}</p>
+              <h2 className="text-lg font-semibold text-primary">Title: {note.title}</h2>
+              <p className="text-gray-600 line-clamp-3">Content: {note.content}</p>
             </div>
           ))}
         </div>
