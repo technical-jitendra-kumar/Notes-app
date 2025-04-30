@@ -18,8 +18,8 @@ To get the project running locally, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd note-service
+git clone https://github.com/technical-jitendra-kumar/Notes-app.git
+cd notes-app
 ```
 
 ### Install Dependencies
@@ -80,21 +80,20 @@ Here are the key design choices and their rationale:
 
 ## Deployment
 
-The app is deployed on **Vercel** for a live demo. To deploy your own instance:
+The app is deployed on **Render** for a live demo. To deploy your own instance:
 
 1. Push the project to a **GitHub repository**.
-2. Sign in to **Vercel** and create a new project.
+2. Sign in to **Render** and create a new **Web Service**.
 3. Import your GitHub repository and configure:
-   - **Framework Preset**: Next.js
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `.next`
-   - **Install Command**: `npm install`
+   - **Runtime**: Node
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm run start`
 4. Deploy and obtain your live URL.
 
-### Live Demo
+## Live Demo
 
-- **GitHub Repo**: [<your-repo-url>](<your-repo-url>)
-- **Live Site**: [<vercel-or-netlify-url>](<vercel-or-netlify-url>)
+- **GitHub Repo**: [https://github.com/technical-jitendra-kumar/Notes-app](https://github.com/technical-jitendra-kumar/Notes-app)
+- **Live Site**: [https://notes-vfcg.onrender.com](https://notes-vfcg.onrender.com)
 
 ## Technologies Used
 
